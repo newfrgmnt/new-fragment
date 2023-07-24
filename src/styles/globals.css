@@ -5,6 +5,12 @@
 :root {
   --foreground: #fff;
   --background: #fff;
+
+
+  --gradient-color-1: #F383C1;
+  --gradient-color-2: #e86c72;
+  --gradient-color-3: #F9B8E0;
+  --gradient-color-4: #F890A1;
 }
 
 body {

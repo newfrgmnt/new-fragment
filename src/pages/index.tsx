@@ -23,7 +23,7 @@ export default function Home() {
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="/opengraph-image.png" />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@digitalocean" />
+                <meta name="twitter:site" content="@newfrgmnt" />
                 <meta property="twitter:title" content="New Fragment" />
                 <meta
                     property="twitter:description"

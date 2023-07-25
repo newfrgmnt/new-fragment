@@ -21,7 +21,7 @@ export default function Home() {
             >
                 <Image className="" alt="Logotype" src="/logo.svg" width={140} height={100}></Image>
                 <h1 className="text-4xl lg:text-6xl max-w-3xl text-center leading-normal lg:leading-normal">
-                    At the intersection of design & technology
+                    A garden of creative endeavours within the digital domain.
                 </h1>
                 <span className="text-md">Coming in 2023</span>
             </main>

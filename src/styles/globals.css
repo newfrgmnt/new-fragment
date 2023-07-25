@@ -11,9 +11,20 @@
   --gradient-color-2: #e86c72;
   --gradient-color-3: #F9B8E0;
   --gradient-color-4: #F890A1;
+
+  --app-height: 100%;
 }
 
 body {
   color: var(--foreground);
   background-color: var(--background);
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
 }

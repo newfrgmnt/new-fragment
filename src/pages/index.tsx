@@ -18,6 +18,10 @@ export default function Home() {
         <>
             <Head>
                 <title>New Fragment</title>
+                <meta property="og:title" content="New Fragment" />
+                <meta property="og:description" content="A garden of creative endeavours within the digital domain" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="/opengraph-image.png" />
             </Head>
             <canvas id="gradient-canvas" className="fixed top-0 right-0 bottom-0 left-0 w-full h-full" />
             <main

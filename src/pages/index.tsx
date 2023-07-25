@@ -22,6 +22,14 @@ export default function Home() {
                 <meta property="og:description" content="A garden of creative endeavours within the digital domain" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="/opengraph-image.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@digitalocean" />
+                <meta property="twitter:title" content="New Fragment" />
+                <meta
+                    property="twitter:description"
+                    content="A garden of creative endeavours within the digital domain"
+                />
+                <meta property="twitter:image" content="/opengraph-image.png" />
             </Head>
             <canvas id="gradient-canvas" className="fixed top-0 right-0 bottom-0 left-0 w-full h-full" />
             <main

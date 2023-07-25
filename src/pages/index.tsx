@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google';
 import Image from 'next/image';
 import { useEffect } from 'react';
 import { Gradient } from '../components/MeshGradient/MeshGradient';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,6 +16,9 @@ export default function Home() {
 
     return (
         <>
+            <Head>
+                <title>New Fragment</title>
+            </Head>
             <canvas id="gradient-canvas" className="fixed top-0 right-0 bottom-0 left-0 w-full h-full" />
             <main
                 className={`relative flex flex-col grow justify-between items-center p-14 lg:p-24 h-full z-10 ${inter.className}`}
